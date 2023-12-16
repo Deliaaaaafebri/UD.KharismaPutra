@@ -1,0 +1,23 @@
+.about {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
+    gap: 1.5rem;
+  }
+  .imgcenter {
+    border-radius: 0.9rem;
+    display: block;
+    margin: 0px auto;
+    text-align: left;
+    width: 400px;
+    height: 500px;
+  }
+  .about-text h2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+  }
+  .about-text p {
+    font-size: 0.938rem;
+    margin: 0.5rem 0 1.1rem;
+  }
+  
